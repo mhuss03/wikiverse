@@ -24,7 +24,7 @@ export const App = () => {
     }
 
     fetchPages();
-  }, [pages]);
+  }, []);
 
   function handleView(slug) {
     setSlug(slug);
